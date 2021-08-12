@@ -1,4 +1,3 @@
-#########dict uses ###################
 
 import webbrowser
 import nmap
@@ -9,7 +8,7 @@ banner = pyfiglet.figlet_format('PortScanner')
 print(banner) 
 print('################### Wait scan in progress ######################')
 myscan = nmap.PortScanner()
-myscan.scan('192.168.8.0/24','80,443')
+myscan.scan('enter your ip or range ','port or port range')
 
 
 for host in myscan.all_hosts():
